@@ -11,7 +11,7 @@ public class TicketPool {
         this.maxTicketCapacity = maxCapacity;
     }
 
-    public synchronized void addTicket(Ticket ticket){
+    public synchronized void addTicket(int ticket){
         while (tickets.size() >= maxTicketCapacity) {
             try{
                 wait();
