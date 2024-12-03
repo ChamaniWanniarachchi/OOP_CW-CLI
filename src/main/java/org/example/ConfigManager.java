@@ -9,7 +9,7 @@ public class ConfigManager {
         try (FileWriter file = new FileWriter("config.json")) {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("totalTickets", config.getTotalTickets());
-            jsonObject.put("ticketReleaseDate", config.getTicketReleaseDate());
+            jsonObject.put("ticketReleaseRate", config.getTicketReleaseRate());
             jsonObject.put("customerRetrievalRate", config.getCustomerRetrievalRate());
             jsonObject.put("maxTicketCapacity", config.getMaxTicketCapacity());
 

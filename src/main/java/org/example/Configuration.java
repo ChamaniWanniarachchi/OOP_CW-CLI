@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Configuration {
     private int totalTickets;
-    private LocalDate ticketReleaseDate;
+    private int ticketReleaseRate;
     private int customerRetrievalRate;
     private int maxTicketCapacity;
 
@@ -19,8 +19,8 @@ public class Configuration {
 
         totalTickets = promptForPositiveInt (scanner, "Enter total number of tickets: ");
         totalTickets = Integer.parseInt(scanner.nextLine());
-        ticketReleaseDate = promptForValidDate (scanner, "Enter ticket release date (yyyy-mm-dd): ");
-        ticketReleaseDate = LocalDate.parse(scanner.next());
+        ticketReleaseRate = promptForPositiveInt (scanner, "Enter ticket release date (yyyy-mm-dd): ");
+        ticketReleaseRate = Integer.parseInt(scanner.nextLine());
         customerRetrievalRate = promptForPositiveInt (scanner, "Enter customer retrieval rate: ");
         customerRetrievalRate = Integer.parseInt(scanner.nextLine());
         maxTicketCapacity = promptForPositiveInt (scanner, "Enter maximum ticket capacity: ");
@@ -29,7 +29,7 @@ public class Configuration {
         System.out.println("\nConfiguration successful!");
         System.out.println("Configuration details are as follows:");
         System.out.println("Total tickets: " + totalTickets);
-        System.out.println("Ticket release date: " + ticketReleaseDate);
+        System.out.println("Ticket release date: " + ticketReleaseRate);
         System.out.println("Customer retrieval rate: " + customerRetrievalRate + "ms");
         System.out.println("Maximum ticket capacity: " + maxTicketCapacity);
     }
@@ -52,25 +52,12 @@ public class Configuration {
         }
     }
 
-    private LocalDate promptForValidDate(Scanner scanner, String prompt) {
-        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        while (true) {
-            System.out.println(prompt);
-            String input = scanner.next();
-            try {
-                return LocalDate.parse(input, dateFormatter);
-            } catch (DateTimeParseException e) {
-                System.out.println("Invalid date format. Please enter the date in the format yyyy-mm-dd.");
-            }
-        }
-    }
-
     public int getTotalTickets() {
         return totalTickets;
     }
 
-    public LocalDate getTicketReleaseDate() {
-        return ticketReleaseDate;
+    public int getTicketReleaseRate() {
+        return ticketReleaseRate;
     }
 
     public int getCustomerRetrievalRate() {
