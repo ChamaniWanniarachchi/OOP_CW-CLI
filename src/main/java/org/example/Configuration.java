@@ -1,8 +1,5 @@
 package org.example;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
 public class Configuration {
@@ -11,27 +8,31 @@ public class Configuration {
     private int customerRetrievalRate;
     private int maxTicketCapacity;
 
-    public Configuration() {
+    public Configuration() {}
+
+    public Configuration(int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity) {
+        this.totalTickets = totalTickets;
+        this.ticketReleaseRate = ticketReleaseRate;
+        this.customerRetrievalRate = customerRetrievalRate;
+        this.maxTicketCapacity = maxTicketCapacity;
     }
 
     public void initialize() {
         Scanner scanner = new Scanner(System.in);
 
         totalTickets = promptForPositiveInt (scanner, "Enter total number of tickets: ");
-        totalTickets = Integer.parseInt(scanner.nextLine());
-        ticketReleaseRate = promptForPositiveInt (scanner, "Enter ticket release date (yyyy-mm-dd): ");
-        ticketReleaseRate = Integer.parseInt(scanner.nextLine());
+        ticketReleaseRate = promptForPositiveInt (scanner, "Enter ticket release rate: ");
         customerRetrievalRate = promptForPositiveInt (scanner, "Enter customer retrieval rate: ");
-        customerRetrievalRate = Integer.parseInt(scanner.nextLine());
         maxTicketCapacity = promptForPositiveInt (scanner, "Enter maximum ticket capacity: ");
-        maxTicketCapacity = Integer.parseInt(scanner.nextLine());
 
         System.out.println("\nConfiguration successful!");
         System.out.println("Configuration details are as follows:");
         System.out.println("Total tickets: " + totalTickets);
-        System.out.println("Ticket release date: " + ticketReleaseRate);
+        System.out.println("Ticket release rate: " + ticketReleaseRate + "ms");
         System.out.println("Customer retrieval rate: " + customerRetrievalRate + "ms");
         System.out.println("Maximum ticket capacity: " + maxTicketCapacity);
+
+
     }
 
     private int promptForPositiveInt(Scanner scanner, String prompt) {

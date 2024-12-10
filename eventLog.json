@@ -1,0 +1,442 @@
+[
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805425186
+    },
+    {
+        "event": "Customer Customer ID - 8 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425206
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805425212
+    },
+    {
+        "event": "Vendor added 2 tickets.",
+        "timestamp": 1733805425213
+    },
+    {
+        "event": "Vendor added 3 tickets.",
+        "timestamp": 1733805425213
+    },
+    {
+        "event": "Vendor added 4 tickets.",
+        "timestamp": 1733805425214
+    },
+    {
+        "event": "Vendor added 5 tickets.",
+        "timestamp": 1733805425214
+    },
+    {
+        "event": "Vendor added 6 tickets.",
+        "timestamp": 1733805425215
+    },
+    {
+        "event": "Vendor added 7 tickets.",
+        "timestamp": 1733805425216
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805425217
+    },
+    {
+        "event": "Vendor added 9 tickets.",
+        "timestamp": 1733805425218
+    },
+    {
+        "event": "Customer Customer ID - 0 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425219
+    },
+    {
+        "event": "Customer Customer ID - 2 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425220
+    },
+    {
+        "event": "Customer Customer ID - 1 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425221
+    },
+    {
+        "event": "Customer Customer ID - 3 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425222
+    },
+    {
+        "event": "Customer Customer ID - 4 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425223
+    },
+    {
+        "event": "Customer Customer ID - 5 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425227
+    },
+    {
+        "event": "Customer Customer ID - 7 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425228
+    },
+    {
+        "event": "Customer Customer ID - 6 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425229
+    },
+    {
+        "event": "Customer Customer ID - 9 received Ticket{ticketId=1, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805425231
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805426197
+    },
+    {
+        "event": "Customer Customer ID - 8 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426213
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805426215
+    },
+    {
+        "event": "Vendor added 2 tickets.",
+        "timestamp": 1733805426215
+    },
+    {
+        "event": "Vendor added 3 tickets.",
+        "timestamp": 1733805426216
+    },
+    {
+        "event": "Vendor added 4 tickets.",
+        "timestamp": 1733805426217
+    },
+    {
+        "event": "Vendor added 5 tickets.",
+        "timestamp": 1733805426218
+    },
+    {
+        "event": "Vendor added 6 tickets.",
+        "timestamp": 1733805426219
+    },
+    {
+        "event": "Vendor added 7 tickets.",
+        "timestamp": 1733805426220
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805426221
+    },
+    {
+        "event": "Customer Customer ID - 9 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426234
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805426236
+    },
+    {
+        "event": "Customer Customer ID - 2 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426236
+    },
+    {
+        "event": "Customer Customer ID - 1 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426237
+    },
+    {
+        "event": "Customer Customer ID - 5 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426238
+    },
+    {
+        "event": "Customer Customer ID - 3 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426239
+    },
+    {
+        "event": "Customer Customer ID - 0 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426239
+    },
+    {
+        "event": "Customer Customer ID - 6 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426240
+    },
+    {
+        "event": "Customer Customer ID - 4 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426241
+    },
+    {
+        "event": "Customer Customer ID - 7 received Ticket{ticketId=2, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805426243
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805427202
+    },
+    {
+        "event": "Customer Customer ID - 8 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427215
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805427216
+    },
+    {
+        "event": "Vendor added 2 tickets.",
+        "timestamp": 1733805427217
+    },
+    {
+        "event": "Vendor added 3 tickets.",
+        "timestamp": 1733805427219
+    },
+    {
+        "event": "Vendor added 4 tickets.",
+        "timestamp": 1733805427232
+    },
+    {
+        "event": "Vendor added 5 tickets.",
+        "timestamp": 1733805427232
+    },
+    {
+        "event": "Vendor added 6 tickets.",
+        "timestamp": 1733805427234
+    },
+    {
+        "event": "Vendor added 7 tickets.",
+        "timestamp": 1733805427235
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805427236
+    },
+    {
+        "event": "Customer Customer ID - 6 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427248
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805427249
+    },
+    {
+        "event": "Customer Customer ID - 9 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427250
+    },
+    {
+        "event": "Customer Customer ID - 0 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427251
+    },
+    {
+        "event": "Customer Customer ID - 2 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427252
+    },
+    {
+        "event": "Customer Customer ID - 5 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427252
+    },
+    {
+        "event": "Customer Customer ID - 1 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427253
+    },
+    {
+        "event": "Customer Customer ID - 3 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427254
+    },
+    {
+        "event": "Customer Customer ID - 7 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427255
+    },
+    {
+        "event": "Customer Customer ID - 4 received Ticket{ticketId=3, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805427255
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805428209
+    },
+    {
+        "event": "Customer Customer ID - 8 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428217
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805428218
+    },
+    {
+        "event": "Vendor added 2 tickets.",
+        "timestamp": 1733805428219
+    },
+    {
+        "event": "Vendor added 3 tickets.",
+        "timestamp": 1733805428224
+    },
+    {
+        "event": "Vendor added 4 tickets.",
+        "timestamp": 1733805428235
+    },
+    {
+        "event": "Vendor added 5 tickets.",
+        "timestamp": 1733805428240
+    },
+    {
+        "event": "Vendor added 6 tickets.",
+        "timestamp": 1733805428245
+    },
+    {
+        "event": "Vendor added 7 tickets.",
+        "timestamp": 1733805428246
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805428247
+    },
+    {
+        "event": "Customer Customer ID - 6 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428250
+    },
+    {
+        "event": "Customer Customer ID - 2 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428255
+    },
+    {
+        "event": "Customer Customer ID - 7 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428256
+    },
+    {
+        "event": "Vendor added 6 tickets.",
+        "timestamp": 1733805428257
+    },
+    {
+        "event": "Customer Customer ID - 1 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428260
+    },
+    {
+        "event": "Customer Customer ID - 9 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428261
+    },
+    {
+        "event": "Customer Customer ID - 5 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428262
+    },
+    {
+        "event": "Customer Customer ID - 3 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428264
+    },
+    {
+        "event": "Customer Customer ID - 0 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428265
+    },
+    {
+        "event": "Customer Customer ID - 4 received Ticket{ticketId=4, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805428271
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805429219
+    },
+    {
+        "event": "Customer Customer ID - 8 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429220
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805429221
+    },
+    {
+        "event": "Vendor added 2 tickets.",
+        "timestamp": 1733805429222
+    },
+    {
+        "event": "Vendor added 3 tickets.",
+        "timestamp": 1733805429234
+    },
+    {
+        "event": "Vendor added 4 tickets.",
+        "timestamp": 1733805429245
+    },
+    {
+        "event": "Vendor added 5 tickets.",
+        "timestamp": 1733805429246
+    },
+    {
+        "event": "Vendor added 6 tickets.",
+        "timestamp": 1733805429249
+    },
+    {
+        "event": "Vendor added 7 tickets.",
+        "timestamp": 1733805429250
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805429251
+    },
+    {
+        "event": "Customer Customer ID - 2 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429259
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805429261
+    },
+    {
+        "event": "Customer Customer ID - 7 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429262
+    },
+    {
+        "event": "Customer Customer ID - 1 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429263
+    },
+    {
+        "event": "Customer Customer ID - 9 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429264
+    },
+    {
+        "event": "Customer Customer ID - 5 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429265
+    },
+    {
+        "event": "Customer Customer ID - 6 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429265
+    },
+    {
+        "event": "Customer Customer ID - 3 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429267
+    },
+    {
+        "event": "Customer Customer ID - 0 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429281
+    },
+    {
+        "event": "Customer Customer ID - 4 received Ticket{ticketId=5, eventName='Simple Event', ticketPrice=1000}",
+        "timestamp": 1733805429283
+    },
+    {
+        "event": "Vendor added 1 tickets.",
+        "timestamp": 1733805430222
+    },
+    {
+        "event": "Vendor added 2 tickets.",
+        "timestamp": 1733805430230
+    },
+    {
+        "event": "Vendor added 3 tickets.",
+        "timestamp": 1733805430232
+    },
+    {
+        "event": "Vendor added 4 tickets.",
+        "timestamp": 1733805430245
+    },
+    {
+        "event": "Vendor added 5 tickets.",
+        "timestamp": 1733805430247
+    },
+    {
+        "event": "Vendor added 6 tickets.",
+        "timestamp": 1733805430250
+    },
+    {
+        "event": "Vendor added 7 tickets.",
+        "timestamp": 1733805430252
+    },
+    {
+        "event": "Vendor added 8 tickets.",
+        "timestamp": 1733805430261
+    },
+    {
+        "event": "Vendor added 9 tickets.",
+        "timestamp": 1733805430262
+    },
+    {
+        "event": "Vendor added 10 tickets.",
+        "timestamp": 1733805430263
+    }
+]

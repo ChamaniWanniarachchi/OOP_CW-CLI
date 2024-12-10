@@ -2,7 +2,6 @@ package org.example;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.w3c.dom.events.Event;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -10,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class TicketPool {
-    private final Queue<Integer> tickets = new LinkedList<Integer>();
+    private final Queue<Ticket> tickets = new LinkedList<Ticket>();
     private final int maxTicketCapacity;
     private JSONArray eventLog = new JSONArray();
 
@@ -18,7 +17,7 @@ public class TicketPool {
         this.maxTicketCapacity = maxCapacity;
     }
 
-    public synchronized void addTicket(int ticket){
+    public synchronized void addTicket(Ticket ticket){
         while (tickets.size() >= maxTicketCapacity) {
             try{
                 wait();
@@ -26,12 +25,13 @@ public class TicketPool {
                 Thread.currentThread().interrupt();
             }
         }
-        tickets.add(ticket);
-        logEvent("Vendor added " + tickets.size() + "tickets.");
+        this.tickets.add(ticket);
+        logEvent("Vendor added " + tickets.size() + " tickets.");
         notifyAll();
+        System.out.println("Vendor " + Thread.currentThread().getName() + ". Ticket pool - current size - " + tickets.size());
     }
 
-    public synchronized void removeTicket() {
+    public synchronized Ticket removeTicket() {
         while (tickets.isEmpty()) {
             try {
                 wait();
@@ -39,9 +39,11 @@ public class TicketPool {
                 Thread.currentThread().interrupt();
             }
         }
-        Integer ticket = tickets.poll();
-        logEvent("Customer received the ticket.");
+        Ticket ticket = tickets.poll();
+        logEvent("Customer " + Thread.currentThread().getName() + " received " + ticket);
         notifyAll();
+        System.out.println("Ticket bought by - " + Thread.currentThread().getName() + " - current size is - " + tickets.size() + " - Ticket is - " + ticket);
+        return ticket;
     }
 
     private void logEvent(String eventDescription) {
