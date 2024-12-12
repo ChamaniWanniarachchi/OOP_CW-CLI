@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb7e9264-4987-4bcf-8afa-1e741ecb92e9" name="Changes" comment="Sixth commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="cb7e9264-4987-4bcf-8afa-1e741ecb92e9" name="Changes" comment="Seventh commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConfigManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicketPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TicketPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vendor.java" afterDir="false" />
     </list>
@@ -81,7 +81,8 @@
       <workItem from="1733369094282" duration="2920000" />
       <workItem from="1733589857923" duration="2005000" />
       <workItem from="1733797443763" duration="1012000" />
-      <workItem from="1733798718411" duration="3574000" />
+      <workItem from="1733798718411" duration="4133000" />
+      <workItem from="1733819516428" duration="13385000" />
     </task>
     <task id="LOCAL-00001" summary="Fourth commit">
       <option name="closed" value="true" />
@@ -115,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733242108607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Seventh commit">
+      <option name="closed" value="true" />
+      <created>1733805564496</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733805564496</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +134,7 @@
     <MESSAGE value="Fourth commit" />
     <MESSAGE value="Fifth commit" />
     <MESSAGE value="Sixth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sixth commit" />
+    <MESSAGE value="Seventh commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seventh commit" />
   </component>
 </project>
